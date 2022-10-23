@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Quiz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="nav_bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    Quiz App
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="Create_Quiz">
+        <div class="container">
+            <h1>Create Quiz</h1>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="QuizInfo">
+                        <form action="submit">
+                            <label for="" name="Title">Title</label>
+                            <input type="text" name="Title" id="Title" required>
+                            <label for="" name="NumberOfQuestion">Number Of Question</label>
+                            <input type="number" name="NumberOfQuestion" id="NumberOfQuestion" min="1" required>
+                            <label for="" name="Duration">Duration <span>(min)</span></label>
+                            <input type="number" name="Duration" id="Duration" max="60" min="5" required>
+                            <label for="" name="Passing Criteria">Passing Criteria %</label>
+                            <input type="number" name="Passing" id="Passing" max="100" min="33" required>
+                        </form>
+                        <button id="QuizInfoBtn" onclick="getQuizDetails()">Create</button>
+                        <button id="Cancel"><a href="./index.html">Cancel</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Quiz_Details">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="Quiz" id="Quiz">
+                        <h1 class="heading" id="QuizTitle">Quiz Title</h1>
+                        <span id="QDur">Duration : </span>
+                        <span id="QNum">Number Of Question : </span>
+                        <span id="QPC">Passing Criteria : </span>
+                        <div class="questions" id="Questions">
+                        </div>
+                        <button id="saveBtn" class="createBtn" onclick="getQuestion()">Save</button>
+                        <button id="cancelBtn" class="createBtn"><a href="./index.html">Cancel</a></button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Success_Note">
+        <div>
+            <p>Congratulations, Quiz is Succesfully Created. Check your Home page!!</p>
+            <p> <span> Remember that, this data is Saved on your Local Storage!!</span> </p>
+            <button><a href="./index.html">Home</a></button>
+        </div>
+    </section>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

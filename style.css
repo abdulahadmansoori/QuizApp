@@ -1,0 +1,231 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav_bar {
+    padding: 1%;
+    background: rgb(53, 0, 151);
+    color: #fff;
+}
+
+.subNavBar {
+    margin: 1% 0%;
+}
+
+.subNavBar span {
+    font-weight: 900;
+}
+
+.subNavBar span a {
+    color: rgb(53, 0, 151);
+    margin-right: 2%;
+    font-weight: 900;
+}
+
+.search {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    margin-top: 2%;
+    padding: 2% 5%;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px rgb(187, 186, 186);
+}
+
+.CreateQuizLink {
+    text-align: right;
+    color: gray;
+}
+
+.CreateQuizLink a {
+    text-decoration: none;
+}
+
+.quiz-items {
+    margin: 6% 0%;
+    padding: 5%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(187, 186, 186);
+}
+
+.quiz-items:hover {
+    box-shadow: 0px 0px 10px rgb(153, 152, 152);
+}
+
+.quiz-items h3 {
+    color: rgb(53, 0, 151);
+}
+
+.startBtn {
+    background: rgb(53, 0, 151);
+    color: #fff;
+    border-radius: 25px;
+    text-align: center;
+    padding: 5% 0%;
+    margin-top: 70%;
+    cursor: pointer;
+}
+
+#Create_Quiz h1 {
+    margin-top: 2%;
+}
+
+.QuizInfo form label {
+    margin-top: 1%;
+}
+
+.QuizInfo form input {
+    width: 100%;
+    padding: 0.5%;
+    font-size: 1.25rem;
+}
+
+button {
+    margin-top: 1%;
+    padding: 0.5% 1%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background: rgb(53, 0, 151);
+    border: 1px solid rgb(53, 0, 151);
+    text-align: center;
+}
+
+#Cancel {
+    background: #fff;
+    border: 1px solid rgb(97, 97, 97);
+}
+
+#Cancel a {
+    color: rgb(97, 97, 97);
+
+}
+
+#QuizInfoBtn:hover {
+    background: rgb(43, 1, 121);
+}
+
+#Cancel:hover {
+    color: rgb(97, 97, 97);
+    background: rgb(228, 228, 228);
+}
+
+#Quiz_Details {
+    display: none;
+}
+
+.Quiz h1 {
+    margin: 2% 0%;
+
+}
+
+.Question {
+    background: rgb(235, 235, 235);
+    margin: 2% 0%;
+    padding: 1%;
+}
+
+
+.Question label {
+    font-size: 0.9rem;
+}
+
+.Quiz .Question input {
+    border: none;
+    width: 100%;
+    padding: 0.5%;
+    margin: 0.5% 0%;
+    outline-color: rgb(53, 0, 151);
+}
+
+.Quiz .Question .options input {
+    border: none;
+    width: 100%;
+}
+
+.Quiz span {
+    margin: 1% 0.5%;
+    color: rgb(53, 0, 151);
+    font-weight: 600;
+}
+
+#Success_Note {
+    margin-top: 20%;
+    display: none;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#Success_Note p {
+    color: rgb(92, 152, 2);
+
+}
+
+#Success_Note p span {
+    font-size: 1rem;
+    color: red;
+    font-weight: 500;
+}
+
+#Success_Note button {
+    font-size: 1rem;
+    color: rgb(96, 96, 96);
+    font-weight: 500;
+    padding: 1%;
+    border: none;
+    border-bottom: 2px solid rgb(53, 0, 151);
+}
+
+#beReady {
+    display: none;
+    text-align: center;
+    margin-top: 15%;
+}
+
+#beReady h6 {
+    font-size: 1.5rem;
+
+}
+
+#beReady p {
+    font-size: 1.25rem;
+}
+
+#questions div {
+    margin: 2% 0%;
+    background: rgb(235, 235, 235);
+    padding: 1%;
+}
+
+#questions .question {
+    font-size: 1.5rem;
+}
+
+#questions .option {
+    font-size: 1.25rem;
+}
+
+#questions .col-md-4 {
+    margin: 0%;
+    padding: 0%;
+}
+
+#score {
+    text-align: center;
+    margin-top: 10%;
+}
+
+#score h1 {
+    font-size: 5rem;
+}
+
+#cancelBtn,
+#saveBtna {
+    color: #fff;
+}
