@@ -145,7 +145,6 @@ let showQuiz = (quizkey) => {
         questions.innerHTML += `
         <div>
         <label class="question" for="" id="q${i}">Q${i}. ${key.Question}</label>
-        // <br>
             <div class="row">
                 <div class="col-md-4">
                     <input type="radio" name="${i}opt" value="1" id="Q${i}O1">
@@ -224,7 +223,7 @@ let calResult = (title) => {
         <h1>${result}</h1>
         <h3>${Status}</h3>
         <p>${message}</p>
-        <button id="saveBtn"onclick="location.replace('http://127.0.0.1:5500/index.html')">Home</button>
+        <button id="saveBtn"onclick="location.replace('./index.html')">Home</button>
     `
 }
 

@@ -95,6 +95,7 @@ button {
     background: rgb(53, 0, 151);
     border: 1px solid rgb(53, 0, 151);
     text-align: center;
+    cursor: pointer;
 }
 
 #Cancel {
@@ -228,4 +229,10 @@ button {
 #cancelBtn,
 #saveBtna {
     color: #fff;
+}
+.GetData{
+    cursor: pointer;
+}
+.GetData:hover{
+    color: rgb(53, 0, 151);
 }
